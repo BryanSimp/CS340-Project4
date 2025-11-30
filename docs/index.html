@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Spell Checker</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body { font-family: Arial, sans-serif; margin: 40px; }
+    h1 { color: #333; }
+    input { padding: 8px; font-size: 16px; }
+    button { padding: 8px 12px; font-size: 16px; margin-left: 8px; }
+    ul { margin-top: 20px; }
+    li { margin: 4px 0; }
+  </style>
+</head>
+<body>
+  <h1>Spell Checker</h1>
+  <input id="wordInput" type="text" placeholder="Enter word">
+  <button onclick="getSuggestions()">Check</button>
+  <ul id="suggestions"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
